@@ -1,0 +1,16 @@
+#fruits-database {
+    label {
+        @include black_text();
+    }
+    h2 {
+       @include black_headings();
+    }
+    .info_id {
+        @include black_text();
+    }
+    .table {
+        th {
+            @include black_text();   
+        }
+    }
+}

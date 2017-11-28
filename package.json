@@ -1,0 +1,30 @@
+{
+  "name": "javascript_inl3",
+  "version": "1.0.0",
+  "description": "a campaign project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.11",
+    "browserify": "^14.3.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-notify-growl": "^1.0.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

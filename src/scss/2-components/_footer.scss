@@ -1,0 +1,16 @@
+/*********************************************
+                  FOOTER
+*********************************************/
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+    p {
+        @include white_text();
+    }
+    h6 {
+       @include white_headings();
+    } 
+}

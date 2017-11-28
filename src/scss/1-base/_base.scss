@@ -1,0 +1,39 @@
+/************************
+* Globals. 1 rem = 16px *
+************************/
+
+body {
+    @include black_text();
+}
+
+/* style.css */
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+
+    @include white_headings();
+}
+
+p, .p {
+    @include black_text();
+}
+
+
+.start-div {
+    background-color: brown;
+    height: 42.6875rem;
+    width: 100%;
+    
+}

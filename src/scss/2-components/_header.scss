@@ -1,0 +1,111 @@
+/*********************************************
+                  HEADER
+*********************************************/
+
+/*header {
+    height: 220px;
+    background: #ccc;
+}*/
+
+#main {
+    padding-top:70px;
+}
+
+.navbar {
+  border-radius: 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.affix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/* fixed to top styles */
+.affix.navbar {
+  background-color: #333;
+}
+.affix.navbar .nav-item>a, 
+.affix.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* navbar collapsing */
+@media(max-width:34em) {
+    .navbar .navbar-nav>.nav-item {
+        float: none;
+        margin-left: .1rem;
+    }
+    .navbar .navbar-nav {
+        float:none !important;
+    }
+    .navbar .collapse.in, .navbar .collapsing  {
+        clear:both;
+    }
+}
+
+//.countdown {
+//    font-family: 'Amatica SC', cursive;
+//    font-size: 2rem;
+//}
+
+// My Settings 
+
+//#background {
+//    position: fixed;
+//    top: 50%;
+//    left: 50%;
+//    min-width: 100%;
+//    min-height: 100%;
+//    width: auto;
+//    height: auto;
+//    z-index: -100;
+//    -webkit-transform: translateX(-50%) translateY(-50%);
+//    transform: translateX(-50%) translateY(-50%);
+///*    background: url(media/background.jpg) no-repeat;*/
+//    background-size: cover;
+//}
+
+.element-with-video-bg {
+	//background-image: url(media/img/audience.jpg);
+    height: 100%;
+}
+
+.content {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    height: 300px;
+    
+    .countdown, h1 {
+        @include header_text();
+    }
+    
+    .btn-outline-secondary {
+        color: #000;
+        border: 1px solid #000;
+    }
+}
+
+.content_2 {
+    color: white;
+    background-color: rgba(255,255,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    height: 400px;
+}

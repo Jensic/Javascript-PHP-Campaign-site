@@ -1,0 +1,17 @@
+.instagram {
+    img {
+    }
+    .feed {
+        .col-md-4 {
+            margin-bottom: 55px;
+        }
+    }
+}
+
+#instagram_spectagram {
+    background-color: $background_color_instagram;
+    h2 {
+        @include black_headings();
+        margin: 50px 0;
+    }
+}

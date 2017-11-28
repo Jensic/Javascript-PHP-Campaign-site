@@ -1,0 +1,54 @@
+// Mixin fo border-radius
+@mixin rounded($radius: 0.3125rem) {
+	border-radius: $radius;
+}
+
+// Mixins for the menu
+@mixin menu() {
+	font-family: 'Roboto', sans-serif;
+    font-size: 2.375rem;
+    line-height: 2.375rem;
+    color: $menu_color;
+}
+
+// Mixins for the headings white
+@mixin white_headings() {
+	font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $title_color;
+}
+
+// Mixins for the headings black
+@mixin black_headings() {
+	font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $title_color2;
+}
+
+// Mixins for the text white
+@mixin white_text() {
+	font-family: 'Gafata', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4285rem;
+    color: $text_color;
+}
+
+// Mixins for the text black
+@mixin black_text() {
+	font-family: 'Gafata', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4285rem;
+    color: $text_color2;
+}
+
+// Mixins for header
+@mixin header_text() {
+	font-family: 'Amatica SC', sans-serif;
+    font-size: 2rem;
+    line-height: 1.4285rem;
+    color: $text_color;
+}

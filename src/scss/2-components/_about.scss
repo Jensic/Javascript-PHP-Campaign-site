@@ -1,0 +1,29 @@
+/*********************************************
+                  ABOUT
+*********************************************/
+
+#about {
+    background: url('../media/img/auto.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.about-text {
+    background: rgba(0,0,0,00.2);
+    color: white;
+    padding: 1.875rem;
+    p {
+        @include white_text();
+    }
+    h3, h5 {
+       @include white_headings();
+    } 
+}
+
+#about {
+    .section-content {
+        .container {
+            margin-left: 0;
+        }
+    }
+}

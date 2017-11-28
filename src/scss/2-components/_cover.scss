@@ -1,0 +1,23 @@
+/*********************************************
+                  COVER
+*********************************************/
+
+#cover {
+//    background: #222 url('../img/fruit-basket.jpg') center center no-repeat;
+//    background-size: cover;
+    height: 100%;
+//    text-align: center;
+//    display: flex;
+//    align-items: center;
+    p {
+        @include white_text();
+    }
+/*    h1 {
+       @include white_headings();
+    }*/ 
+    
+}
+
+#cover-caption {
+    width: 100%;
+}

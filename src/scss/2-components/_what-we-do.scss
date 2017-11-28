@@ -1,0 +1,45 @@
+/*********************************************
+                  WHAT WE DO
+*********************************************/
+
+#what-we-do {
+    
+    background-color: $background_color_what_we_do;
+    
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    h5, .h5,
+    h6, .h6    {
+        @include white_headings();
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    
+    p {
+        @include white_text();
+    }
+    
+    .section-content {
+        padding: 5rem 0;
+    }
+    
+    .card-deck {
+        h1, .h1,
+        h2, .h2,
+        h3, .h3,
+        h4, .h4,
+        h5, .h5,
+        h6, .h6    {
+            @include black_headings();
+        }
+        p {
+        @include black_text();
+    }
+        
+    }
+}
+
